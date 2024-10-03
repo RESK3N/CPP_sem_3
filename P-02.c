@@ -1,3 +1,4 @@
+//Write a program in C to sort an array , but it will not execute if the array is already sorted
 #include<stdlib.h>
 #include<stdio.h>
 int main()

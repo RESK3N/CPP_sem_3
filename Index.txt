@@ -1,0 +1,6 @@
+Welcome to my repository
+Table of contents :
+01
+02 Write a program in C to sort an array , but it will not execute if the array is already sorted
+03 Write a C program to take input of all students in class and binary search a student
+04 
