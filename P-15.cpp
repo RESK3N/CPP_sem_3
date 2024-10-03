@@ -22,11 +22,24 @@ public:
     void inputSection(){
         for(int i=0;i<5;i++){
             cout<<"student "<<i+1<<" :"<<endl;
-            student[i].inputMarks();
+            students[i].inputMarks();
 
         }
     }
     void displayAverage(){
-        for(int i=0;i<5,i++)
+        for(int i=0;i<5;i++)
+            cout<<"Student "<<i+1<<" average :"<<students[i].average<<endl;
     }
 };
+int main(){
+    section sections[2];
+    for(int i=0;i<2;i++){
+        cout<<"Section "<<i+1<<" :"<<endl;
+        sections[i].inputSection();
+
+    }
+    for(int i=0;i<2;i++){
+        cout<<"Section "<<i+1<<" averages >> "<<endl;
+        sections[i].displayAverage();
+    }
+}
