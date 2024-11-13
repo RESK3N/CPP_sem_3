@@ -1,3 +1,4 @@
+//write a program in c to add two lengths in feet and inches by taking user input
 #include<stdio.h>
     int main(){
     struct {

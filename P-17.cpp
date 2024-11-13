@@ -17,6 +17,6 @@ int main(){
     cout<<"Enter Rate of Interest : ";
     cin>>r;
     r/=100;
-    x.roi(100,10,0.2);
-    x.roi(200,20);
+    x.roi(p,t,r);
+    x.roi(p,t);
 }
